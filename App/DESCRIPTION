@@ -1,0 +1,31 @@
+Package: pocdyego
+Title: Terranova's BL app
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Terranova",
+           family = "Consultoria",
+           role = c("cph", "cre", "aut"),
+           email = "contato@trnv.com.br")
+Description: A shiny app made for BL by Terranova.
+License: GPL-3
+Depends:
+    R (>= 3.5.0)
+Imports:
+    auth0,
+    shiny,
+    dplyr,
+    tibble,
+    magrittr,
+    purrr,
+    stringr,
+    vistrnv,
+    markdown,
+    httr,
+    pdftools,
+    jsonlite
+Remotes:
+    terranova/vistrnv
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "collate"))
+RoxygenNote: 7.3.2
